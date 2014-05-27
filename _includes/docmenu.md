@@ -12,7 +12,7 @@
   * Installation
   * Configuration
   * [Pan compiler](/documentation/2012/06/19/documentation-pan-book.html)
-  * [Components](/documentation/components.html)
+  * [Components](/documentation/components/)
 
 ##### Other
   * [All articles](/documentation/other.html)
