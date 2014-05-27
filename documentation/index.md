@@ -2,6 +2,7 @@
 layout: documentation
 category: documentation
 title: Documentation
+comments: false
 ---
 
 This page contains high-level documentation of the core tools of the Quattor Toolkit.
