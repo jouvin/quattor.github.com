@@ -5,8 +5,7 @@ author: Luis Fernando MuÃos Mejias
 menu: Coding Style
 ---
 
-Coding Style for Quattor Modules
-===============================
+[quattor_rtd_documentation]: http://quattor-documentation.readthedocs.io/en/latest/
 
 Introduction
 ------------
@@ -322,7 +321,7 @@ symlinks and overwriting files.
 - They are mocked by the Quattor unit test framework, allowing to run unit tests without root access or 
 without installing the underlying services.
 
-`CAF` documentation is part of the online [Quattor documentation](http://quattor-documentation.readthedocs.io/en/latest/).
+`CAF` documentation is part of the online [Quattor documentation][quattor_rtd_documentation].
 
 ### Running commands
 
@@ -354,7 +353,7 @@ The log option is any CAF::Logger object, for instance the component you are wri
 Sometimes you pass confidential data to your commands. For instance, an encrypted password to usermod. 
 In this cases, you don't want your command logged. Just don't pass any log argument to CAF::Process::new:
 
-See [Quattor documentation](http://quattor-documentation.readthedocs.io/en/latest/) for examples covering 
+See [Quattor documentation][quattor_rtd_documentation] for examples covering 
 the most common use cases.
 
 
@@ -380,7 +379,7 @@ For this reason, `CAF` provides several modules related to file manipulation:
 if the contents was changed. They allow you to specify the file owner, permissions, a backup file name to save 
 the existing file if it is modified...
 
-See [Quattor documentation](http://quattor-documentation.readthedocs.io/en/latest/) for examples covering the 
+See [Quattor documentation][quattor_rtd_documentation] for examples covering the 
 most common use cases.
 
 #### Temporary files
@@ -405,7 +404,7 @@ anonymous file handle. But please, use this only if you are convinced there is n
 * Symlink and hardlink management
 * Management of file permissions and owner
 
-See [Quattor documentation](http://quattor-documentation.readthedocs.io/en/latest/) for more details on the 
+See [Quattor documentation][quattor_rtd_documentation] for more details on the 
 available methods and for examples covering the most common use cases.
 
 ## Input handling
