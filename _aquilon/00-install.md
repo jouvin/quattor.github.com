@@ -572,6 +572,24 @@ Postgres. In particular, SQLite has a very limited support for `ALTER TABLE` and
 
 See [starting a site with Aquilon][aquilon_configuration].
 
+## Aquilon Book
+
+Once you have installed Aquilon, you can build the Aquilon Book which contains the reference information
+for Aquilon. To build this documentation, you need some additional packages to what is required for running
+the broker:
+
+```bash
+yum install maven pandoc texlive-latex-bin texlive-texconfig-bin
+```
+
+Once these packages are installed, the Aquilon book can be built with:
+
+```bash
+cd /opt/aquilon/doc/book
+mvn clean install
+```
+
+*Note: there is no need to build the documentation on the machine running the broker.*
 
 ## Troubleshooting
 
